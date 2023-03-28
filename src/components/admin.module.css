@@ -1,0 +1,33 @@
+.contener{
+    height: 560px;
+}
+
+.contener_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.contener_div div{
+    padding: 10px;
+    border: 1px solid gray;
+    margin-bottom: 3px;
+}
+
+.button_div {
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+    /* margin-left: 15px; */
+}
+.form{
+    width: 25%;
+}
+
+.button_div button{
+    width: 49%;
+    height: 30px;
+    margin: 10px 1px;
+}
